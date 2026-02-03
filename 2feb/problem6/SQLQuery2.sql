@@ -1,6 +1,6 @@
 select * from students where age in (select age from students where age>20 );
 
-select count(*) from students where name in (select name from students where name like '%a%');
+select * from students where name in (select name from students where name like '%a%');
 
 select * from courses where fees in (select fees from courses where fees between 120000 and 140000) order by fees;
 
