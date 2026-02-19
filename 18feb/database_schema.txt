@@ -137,7 +137,7 @@ pickup_status_history {
   changed_at timestamp
   changed_by varchar
 }
-  
+
 -------------------------------------------------------------------
 
 delivery_details{ 
@@ -204,3 +204,6 @@ customer_location_history{
 }
 
 
+
+
+DBDiagram link:- https://dbdiagram.io/d/6995a5a7bd82f5fce20d93f3
